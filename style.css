@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-grow: 1;
+  transition: all cubic-bezier(0.84, 0.01, 0.24, 1.04) 1s;
+}
+main section:hover {
+  flex-grow: 2;
+  cursor: pointer;
+}
+main section:nth-child(1) {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./matsya.jpg);
+}
+main section:nth-child(2) {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./varaha.jpg);
+}
+main section:nth-child(3) {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./krishna.jpg);
+}
+main section:nth-child(4) {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./rama.jpg);
+}
+main section:nth-child(5) {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./narashima.jpg);
+}/*# sourceMappingURL=style.css.map */
